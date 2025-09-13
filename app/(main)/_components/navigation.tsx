@@ -114,7 +114,7 @@ export const Navigation = () => {
     toast.promise(promise, {
       loading: "Creating a new note...",
       success: "New note created!",
-      error: "Failed to create a new note."
+      //error: "Failed to create a new note."
     });
   };
 
